@@ -85,6 +85,10 @@ header {
     text-transform: uppercase;
 }
 
+.menu__link-s {
+    display: none;
+}
+
 .menu__item:last-child .menu__link {
     padding: 0;
 }
@@ -240,6 +244,10 @@ header {
     display: none;
 }
 
+.description__text-s {
+    display: none;
+}
+
 .description__extra {
     margin-right: 10%;
     float: right;
@@ -321,11 +329,11 @@ header {
     line-height: 24px;
 }
 
-.info__text-l {
+.bio__text-l {
     display: none;
 }
 
-.bio__text-l {
+.bio__text-s {
     display: none;
 }
 
@@ -381,12 +389,24 @@ header {
     font-family: 'OpenSans Extra-bold', Arial, sans-serif;
 }
 
+.info__subtitle-s {
+    display: none;
+}
+
 .info__updates div:nth-child(3) {
     margin-bottom: 16px;
 }
 
 .info__text-xl {
     letter-spacing: -.1px;
+}
+
+.info__text-l {
+    display: none;
+}
+
+.info__text-s {
+    display: none;
 }
 
 .info__extra-xl {
@@ -521,5 +541,9 @@ footer {
 
 .footer__text--bold {
     font-family: 'OpenSans Extra-bold', Arial, sans-serif;
+}
+
+.menu--footer-m {
+    display: none;
 }
 /* END footer */
