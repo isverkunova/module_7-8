@@ -237,7 +237,8 @@
     .sponsors__box {
         width: 100%;
         margin-left: 0;
-        padding-left: 0;
+        padding-left: 20px;
+        box-sizing: border-box;
     }
 
     .sponsors__link {
@@ -258,7 +259,6 @@
     /* END sponsors */
 
     .news {
-        height: 292px;
         padding-top: 103px;
     }
 
@@ -286,7 +286,7 @@
     /* END news */
 
     footer {
-        height: 201px;
+        height: 140px;
     }
 
     .menu--footer {
@@ -299,8 +299,8 @@
     }
 
     .footer__info {
-        margin-top: 30px;
-        margin-right: 5.3%;
+        margin-top: -21px;
+        margin-right: 2.9%;
     }
 
     .menu--footer-m {
@@ -322,7 +322,7 @@
     }
 
     header {
-        margin-bottom: 91px;
+        margin: 0 0 91px;
     }
 
     .mountain__slider {
@@ -525,7 +525,7 @@
     /* END description */
 
     .info {
-        height: 716px;
+        height: 788px;
         padding-top: 70px;
     }
 
@@ -626,7 +626,7 @@
     }
 
     .sponsors__box {
-        width: 480px;
+        width: 433px;
         padding-top: 36px;
     }
 
@@ -648,7 +648,7 @@
     /* END sponsors */
 
     .news {
-        height: 589px;
+        height: 706px;
         padding-top: 79px;
     }
 
@@ -677,7 +677,8 @@
     /* END news */
 
     footer {
-        height: 202px;
+        height: 145px;
+        padding: 0;
     }
 
     .footer__info {
@@ -691,8 +692,8 @@
 
     .menu--footer-m {
         display: block;
-        width: 100%;
-        margin: 42px -17px 0 0;
+        width: 97%;
+        margin: 42px 0 0 0;
         float: right;
         text-align: center;
     }
@@ -783,6 +784,7 @@
         margin: 0 auto;
         padding-left: 20%;
         float: none;
+        box-sizing: border-box;
     }
 
     .slider__title {
@@ -880,7 +882,7 @@
 
     .info {
         height: 716px;
-        padding-top: 70px;
+        padding: 70px 0 0;
     }
 
     .info__box {
@@ -933,6 +935,7 @@
         width: 100%;
         margin-top: 0;
         padding-left: 5.7%;
+        box-sizing: border-box;
     }
 
     .info__subtitle-xl {
@@ -997,6 +1000,7 @@
 
     .sponsors__box {
         padding: 0;
+        margin: 0 auto;
     }
 
     .sponsors__link {
@@ -1029,7 +1033,7 @@
     }
 
     footer {
-        height: 200px;
+        height: 100px;
     }
 
     .footer__info {

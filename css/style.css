@@ -42,7 +42,8 @@ html {
 
 header {
     height: 42px;
-    margin-bottom: 166px;
+    margin: 0 20px 166px;
+    box-sizing: border-box;
 }
 
 .header__logo {
@@ -107,9 +108,10 @@ header {
 
 .slider__item {
     width: 54%;
-    margin-top: 79px;
+    margin: 79px 0 0 20px;
     float: left;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .slider__title {
@@ -273,11 +275,11 @@ header {
 
 .info {
     width: 100%;
-    height: 386px;
-    padding-top: 100px;
+    padding: 100px 14px 0;
     border-top: 1px solid #000;
     border-bottom: 1px solid #e6e6e6;
     background-color: #f9f9f9;
+    box-sizing: border-box;
 }
 
 .info__box {
@@ -432,11 +434,12 @@ header {
 }
 
 .sponsors__box {
-    width: 92%;
+    width: 90%;
     height: 100px;
     margin: 0 auto;
+    margin-left: 9.9%;
     padding-top: 24px;
-    padding-left: 9.9%;
+    box-sizing: border-box;
 }
 
 .sponsors__link {
@@ -456,9 +459,10 @@ header {
 
 .news {
     width: 100%;
-    height: 299px;
-    padding-top: 10.2%;
+    height: 398px;
+    padding: 10.2% 20px 0;
     background-color: #ececec;
+    box-sizing: border-box;
 }
 
 .news__box {
@@ -513,7 +517,9 @@ header {
 footer {
     width: 100%;
     height: 110px;
+    padding: 0 20px;
     background: url('../img/bg-footer-xl.jpg') center top no-repeat;
+    box-sizing: border-box;
 }
 
 .menu--footer {
